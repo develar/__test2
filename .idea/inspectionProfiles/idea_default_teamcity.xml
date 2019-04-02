@@ -38,6 +38,7 @@
     <inspection_tool class="AccessToStaticFieldLockedOnInstance" enabled="false" level="WARNING" enabled_by_default="false">
       <scope name="android" level="WARNING" enabled="false" />
     </inspection_tool>
+    <inspection_tool class="ActionCableChannelNotFound" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="AddVarianceModifier" enabled="false" level="WEAK WARNING" enabled_by_default="false">
       <scope name="android" level="WEAK WARNING" enabled="false" />
     </inspection_tool>
@@ -1946,9 +1947,6 @@
     <inspection_tool class="InfiniteLoopStatement" enabled="true" level="WARNING" enabled_by_default="true">
       <scope name="android" level="WARNING" enabled="false" />
     </inspection_tool>
-    <inspection_tool class="InfiniteRecursion" enabled="true" level="WARNING" enabled_by_default="true">
-      <scope name="android" level="WARNING" enabled="false" />
-    </inspection_tool>
     <inspection_tool class="InfiniteRecursionJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="InjectOfNonPublicMember" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="InjectionNotApplicable" enabled="true" level="ERROR" enabled_by_default="true">
@@ -3318,9 +3316,6 @@
       </scope>
       <option name="m_ignoreExpressionsContainingConstants" value="true" />
     </inspection_tool>
-    <inspection_tool class="PointlessBitwiseExpressionJS" enabled="false" level="WARNING" enabled_by_default="false">
-      <option name="m_ignoreExpressionsContainingConstants" value="false" />
-    </inspection_tool>
     <inspection_tool class="PointlessBooleanExpression" enabled="true" level="WARNING" enabled_by_default="true">
       <scope name="android" level="WARNING" enabled="false">
         <option name="m_ignoreExpressionsContainingConstants" value="true" />
@@ -3341,6 +3336,7 @@
     <inspection_tool class="ProblematicVarargsMethodOverride" enabled="false" level="WARNING" enabled_by_default="false">
       <scope name="android" level="WARNING" enabled="false" />
     </inspection_tool>
+    <inspection_tool class="PropsParametersInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="ProtectedInFinal" enabled="false" level="WEAK WARNING" enabled_by_default="false">
       <scope name="android" level="WEAK WARNING" enabled="false" />
     </inspection_tool>
@@ -3448,6 +3444,7 @@
       <option name="ignoreTupleUnpacking" value="true" />
       <option name="ignoreLambdaParameters" value="true" />
       <option name="ignoreLoopIterationVariables" value="true" />
+      <option name="ignoreVariablesStartingWithUnderscore" value="true" />
     </inspection_tool>
     <inspection_tool class="Query_bound_parameters" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="Query_index_required" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -3517,7 +3514,6 @@
       <scope name="android" level="WARNING" enabled="false" />
     </inspection_tool>
     <inspection_tool class="RedundantCast" enabled="true" level="WARNING" enabled_by_default="true">
-      <scope name="android" level="WARNING" enabled="false" />
       <option name="IGNORE_SUSPICIOUS_METHOD_CALLS" value="true" />
     </inspection_tool>
     <inspection_tool class="RedundantFieldInitialization" enabled="false" level="WARNING" enabled_by_default="false">
@@ -4605,6 +4601,7 @@
     </inspection_tool>
     <inspection_tool class="UnnecessaryLocalVariableJS" enabled="false" level="WARNING" enabled_by_default="false">
       <option name="m_ignoreImmediatelyReturnedVariables" value="false" />
+      <option name="m_ignoreAnnotatedVariables" value="false" />
     </inspection_tool>
     <inspection_tool class="UnnecessaryModuleDependencyInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <scope name="android" level="WARNING" enabled="false" />
